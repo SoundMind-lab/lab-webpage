@@ -69,9 +69,10 @@ footer {
     object-fit: cover;
 }
 
+
 .team-member-bio {
     flex: 1;
-    color: #333;
+    color: #ffffff; /* White text for dark backgrounds */
 }
 
 .team-member-bio h3 {
