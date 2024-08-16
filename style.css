@@ -1,43 +1,25 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
+.team-member {
     text-align: center;
+    margin: 20px 0;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.team-member h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #333;
 }
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    margin: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+.team-member p {
+    font-size: 1em;
+    color: #666;
+    max-width: 600px;
+    margin: 10px auto;
+    line-height: 1.5;
 }
