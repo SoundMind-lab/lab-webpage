@@ -71,7 +71,7 @@ footer {
 
 .team-member-bio {
     flex: 1;
-    color: #666;
+    color: #333;
 }
 
 .team-member-bio h3 {
@@ -82,6 +82,6 @@ footer {
 
 .team-member-bio p {
     font-size: 1em;
-    color: #666;
+    color: #333;
     line-height: 1.5;
 }
