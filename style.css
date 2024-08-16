@@ -156,6 +156,24 @@ footer {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 10px;
 }
+.publication-list {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Same background style as other sections */
+    border-radius: 10px;
+}
+
+.publication-item {
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+.publication-item p {
+    margin: 0;
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
 
 .team-member-bio h3 {
     margin-top: 0;
