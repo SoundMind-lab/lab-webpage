@@ -71,6 +71,7 @@ footer {
 
 .team-member-bio {
     flex: 1;
+    color: #666;
 }
 
 .team-member-bio h3 {
