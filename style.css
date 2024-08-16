@@ -80,6 +80,21 @@ footer {
     font-size: 1.5em;
     color: #333;
 }
+.team-member-bio p {
+    font-size: 1.2em; /* Larger font size for better readability */
+    line-height: 1.6; /* Improve line spacing for clarity */
+}
+.team-member-bio p {
+    font-weight: 400; /* Regular weight for clear text */
+}
+.team-member-bio {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px; /* Add some padding for spacing */
+}
+
+.team-member-bio p {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for better contrast */
+}
 
 .team-member-bio p {
     font-size: 1em;
