@@ -22,27 +22,36 @@ nav ul li {
 
 
 .team-member {
-    text-align: center;
+    display: flex;
+    align-items: center;
     margin: 20px 0;
 }
 
-.team-member img {
+.team-member-photo {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.team-member-photo img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.team-member h3 {
-    margin-top: 10px;
+.team-member-bio {
+    flex: 1;
+}
+
+.team-member-bio h3 {
+    margin-top: 0;
     font-size: 1.5em;
     color: #333;
 }
 
-.team-member p {
+.team-member-bio p {
     font-size: 1em;
     color: #666;
-    max-width: 600px;
-    margin: 10px auto;
     line-height: 1.5;
 }
+
