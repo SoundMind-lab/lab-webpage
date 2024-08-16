@@ -1,3 +1,4 @@
+/* General Body Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -7,17 +8,19 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional: makes the background image stay in place when scrolling */
-    color: #fff; /* Optional: sets the text color to white for better readability on dark backgrounds */
+    background-attachment: fixed; /* Keeps background fixed during scroll */
+    color: #fff; /* Ensures readability on dark background */
 }
 
+/* Header Styles */
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for the header */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: #fff;
     padding: 10px 0;
     text-align: center;
 }
 
+/* Navigation Styles */
 nav ul {
     list-style: none;
     padding: 0;
@@ -29,18 +32,20 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* Adjust this color to ensure readability on your background image */
+    color: #fff;
     text-decoration: none;
 }
 
+/* Section Styles */
 section {
     padding: 20px;
     margin: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for the content */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
+/* Footer Styles */
 footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background for the footer */
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     text-align: center;
     padding: 10px 0;
@@ -49,14 +54,14 @@ footer {
     bottom: 0;
 }
 
-
-
+/* Team Member Styles */
 .team-member {
     display: flex;
     align-items: center;
     margin: 20px 0;
 }
 
+/* Photo Styles */
 .team-member-photo {
     flex: 0 0 auto;
     margin-right: 20px;
@@ -69,65 +74,24 @@ footer {
     object-fit: cover;
 }
 
-
+/* Bio Styles */
 .team-member-bio {
     flex: 1;
-    color: #ffffff; /* White text for dark backgrounds */
+    color: #fff; /* White text for contrast */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
 }
 
 .team-member-bio h3 {
     margin-top: 0;
     font-size: 1.5em;
-    color: #333;
-}
-.team-member-bio p {
-    font-size: 1.2em; /* Larger font size for better readability */
-    line-height: 1.6; /* Improve line spacing for clarity */
-}
-.team-member-bio p {
-    font-weight: 400; /* Regular weight for clear text */
-}
-.team-member-bio {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    padding: 10px; /* Add some padding for spacing */
+    color: #fff; /* Ensure heading text is white */
 }
 
 .team-member-bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight: 400;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for better contrast */
+    color: #fff; /* Ensure paragraph text is also white */
 }
-
-.team-member-bio p {
-    font-size: 1em;
-    color: #333;
-    line-height: 1.5;
-}
-.team-member-bio {
-    flex: 1;
-    color: #ffffff; /* Use white text for high contrast on dark backgrounds */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
-    padding: 10px; /* Padding to ensure text isn't too close to the edges */
-}
-
-.team-member-bio p {
-    font-size: 1.2em; /* Increase font size */
-    line-height: 1.6; /* Better line spacing */
-    font-weight: 400; /* Regular weight for readability */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for better contrast */
-}
-.team-member-bio {
-    flex: 1;
-    color: #ffffff; /* Set text color to white */
-}
-
-.team-member-bio h3 {
-    margin-top: 0;
-    font-size: 1.5em;
-    color: #ffffff; /* Set the heading text color to white as well */
-}
-
-.team-member-bio p {
-    font-size: 1em;
-    line-height: 1.5;
-    color: #ffffff; /* Ensure paragraph text is also white */
-}
-
