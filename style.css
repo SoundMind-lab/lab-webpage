@@ -130,3 +130,43 @@ footer {
     line-height: 1.5;
     color: #ffffff; /* Ensure paragraph text is also white */
 }
+.team-member {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+/* Photo Styles */
+.team-member-photo {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.team-member-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Bio Styles */
+.team-member-bio {
+    flex: 1;
+    color: #fff; /* White text for contrast */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+}
+
+.team-member-bio h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #fff; /* Ensure heading text is white */
+}
+
+.team-member-bio p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for better contrast */
+    color: #fff; /* Ensure paragraph text is also white */
+}
